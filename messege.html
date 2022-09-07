@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game World</title>
+	    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="image/game.png" />
+</head>
+<body>
+  <h4><a href="file:///C:/Users/USER/OneDrive/Desktop/work/index.html">Back</a></h4>
+  <h3><p>Messenger</p></h3>
+  <style type="text/css">
+    .btn-chat{
+      border:none;
+      padding:0;
+      text-transform: uppercase;
+      font-size: 20px;
+      position: absolute;
+      bottom: 2%;
+      right: 2%;
+      width: 20%;
+      margin-right: 200px;
+    }
+    #chatbox{
+      display:none;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      bottom: 2%;
+      right: 2%;
+      z-index: 9;
+      width: 700px;
+    }
+    .form-container{
+      max-width: 300px;
+      padding: 30px;
+      background: white;
+    }
+    .form-container textarea{
+      width: 600px;
+      min-height:200px;
+      border: none;
+      resize: none;
+      padding: 10px;
+      margin: 5px 0 22px 0;
+      background: #f1f1f1;
+      font-size: 15px;
+    }
+    .form-container textarea:focus{
+      background: #f1f1f1;
+      outline: none;
+    }
+    .btn-send, .btn-close{
+      padding:0;
+      font-size: 18px;
+      margin-bottom: 10px;
+      margin-left: 100px;
+      border: none;
+      width: 400px;
+      opacity: 0.9;
+    }
+    .btn-send,.btn-close,.btn-chat:hover{
+      opacity: 1;
+    }
+    h2{
+      background: blue;
+      color:white;
+      width: 100%;
+      text-align: center;
+      padding: 10px;
+    }
+    h3{
+      text-align: center;
+      width: 300px;
+      background-color: blue;
+      border-radius: 20px;
+      text-align: center;
+      color: white;
+      margin-left: 500px;
+      margin-top: 20px;
+      height: 40px;
+    }
+    h4{
+      background-color: green;
+      border-radius: 15px;
+      width: 35px;
+      color: white;
+      margin-left: 10px;
+    }
+    h4:hover{
+      color: white;
+
+    }
+    a{
+      text-decoration: none;
+      color: white;
+    }
+    a:hover{
+      color: white;
+      text-decoration: none;
+    }
+
+  </style>
+
+  <div class="container">
+    <button class="btn btn-info btn-chat" type="button" onclick="openChat()">Chat</button>
+
+    <div class="chatbox" id="chatbox">
+      <h2>Message</h2>
+      <form class="form-container">
+        <textarea type="text" placeholder="Type Text.." name="msg" required=""></textarea>
+        <button type="submit" class="btn btn-info btn-lg btn-send">Send</button>
+        <button type="button" class="btn btn-danger btn-lg btn-close" onclick="closeChat()">Close</button>
+      </form>
+    </div>
+
+  </div>
+
+  <script type="text/javascript">
+    function openChat() {
+      document.getElementById('chatbox').style.display='block';
+      $('.btn-chat').hide();
+    }
+    function closeChat() {
+      document.getElementById('chatbox').style.display='none';
+      $('.btn-chat').show();
+    }
+    $('form').submit(function () {
+      var text=$(this).find("textarea[name='msg']").val();
+
+      alert(text);
+    });
+  </script>
+</body>
+</html>

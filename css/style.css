@@ -1,0 +1,284 @@
+.cost ul{
+	flex-direction: row;
+	display: flex;
+	padding: 10px;
+	justify-content: space-evenly;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	background-color: white;
+}
+h1{
+	background-color: white;
+	height: 50px ;
+	text-align: center;
+	color: white ;
+	font-size: xx-large;
+}
+h2{
+	background-color: white;
+	height: 50px ;
+	text-align: center;
+	color: white ;
+	background-color: darkblue;
+	margin-bottom: -30px;
+}
+.cost ul{
+    flex-direction: row;
+}
+.cost button{
+	background-color: green;
+	margin-left: -270px;
+	border: none;
+	width: 70px;
+	height: 30px;
+	border-radius: 15px;
+}
+.cost p{
+	color: black;
+	margin-left: -300px;
+}
+.plan img{
+	width: 390px;
+	height: 280px;
+}
+.plan img:hover{
+	background-color: green;
+	background-size: 600px 400px;
+}
+button:hover{
+   background-color: red;
+   padding-bottom: 10px;
+}
+.srch{
+	align-items: center;
+	width: 50%;
+	margin-left: 500px;
+	text-align: center;
+}
+footer{
+	background-color: white;
+	text-align: center;
+}
+footer p{
+	padding-top: 3px;
+	color: black;
+}
+.search{
+	background-color: white;
+	height: auto;
+	background-size: !important;
+}
+
+input[type=text]
+.search
+{
+padding-right: 200px;
+}
+.search ul{
+   display: flex;
+   flex-direction: row;
+}
+.search ul li i{
+    margin-left: 10px;
+    color: black;
+}
+.search ul li i:hover{
+	color: black;
+}
+.media{
+	text-align: right;
+	padding-right: 30px;
+	color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+	justify-items: flex-start;
+}
+.media a:hover{
+	color: whit;
+}
+.media a{
+	color: white;
+	background-color: blue;
+	border-radius: 15px;
+}
+.media ul li{
+	font-size: 1.2em; 
+	margin-bottom: -350px; 
+}
+.cost li img{
+	width: 500px;
+	height: 300px;
+	border-radius: 15px;
+	margin-left: -450px;
+}
+.menu{
+	margin-top: -60px;
+}
+.menu ul li{
+	text-align: center;
+	padding-left: 50px;
+	background-size: cover;
+	justify-items: space-between;
+	border-radius: 5px;  
+}
+.menu ul{
+	padding-left: px;
+	display: flex;
+	flex-direction: row;
+	padding-left: 100px;
+	background-color: darkblue;
+	margin-top: -30px;
+	height: 60px;
+}
+.menu ul a{
+	background-color: blue;
+	border-radius: 15px;
+	font-size: xx-large;
+	color: white;
+	margin-top: -20px;
+}
+.menu ul a:hover{
+	background-color: green;
+}
+.menu1 h1{
+	background-color: darkblue;
+}
+.mesege{
+	background-color: darkblue;
+	width: 200px;
+	color: white;
+	height: 1000px;
+	text-align: left;
+	padding-right: 80px;
+}
+.info li i{
+    margin-top: 900px;
+}
+.all{
+	display: flex;
+	flex-direction: row;
+	
+}
+.all2{
+	display: flex;
+	flex-direction: row;
+    margin-right: -200px;
+   
+}
+.all22{
+    display: flex;
+	flex-direction: row;
+	 margin-left: 600px;
+}
+.2{
+	display: flex;
+	flex-direction: column;
+	margin-right: -500px;
+	
+}
+.mesege ul li i{
+	color: white;
+}
+.mesege ul li i:hover{
+	color: whitesmoke;
+}
+.a li{
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 10px;
+}
+.b li{
+	display: flex;
+	flex-direction: row;
+}
+.cost ul{
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cost2{
+
+}
+.cost2 ul{
+	display: flex;
+    flex-direction: row;
+     margin-left: 100px;
+     margin-top: 70px;
+     margin-right: 100px;
+ }
+.cost2 button{
+	background-color: green;
+	margin-left: -670px;
+	border: none;
+	width: 70px;
+	height: 30px;
+	border-radius: 15px;
+}
+.cost2 button:hover{
+	background-color: red;
+
+}
+.cost2 p{
+	color: black;
+	margin-left: -700px;
+}
+.plan2 img{
+	width: 390px;
+	height: 280px;
+}
+.plan2 img:hover{
+	background-color: green;
+	background-size: 600px 400px;
+}
+.cost2 li img{
+	width: 200px;
+	height: 100px;
+	border-radius: 35px;
+	margin-left: -750px;
+}
+.all3{
+	display: flex;
+	flex-direction: row;
+	margin-left: 850px;
+	margin-top: -750px;
+}
+.all4{
+	display: flex;
+	flex-direction: row;
+	margin-left: 850px;
+	margin-top: -20px;
+}
+.plan2 p{
+	margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: xx-large;
+  border-radius: 20px;
+ 
+}
